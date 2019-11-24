@@ -3,10 +3,8 @@
   flex-wrap: nowrap;
   overflow-x: auto;
   justify-content: center;
-  margin-top: 16px;
-  margin-left: 20px;
-  width: 100vw;
-  min-width: 100px;
+  margin: 16px 20px;
+  width: 95vw;
   -webkit-overflow-scrolling: touch;
   &::-webkit-scrollbar {
     display: none;
@@ -22,6 +20,7 @@
     line-height: 20px;
     margin-top: 10px;
     transition: all 0.2s ease-in-out;
+    min-width: 150px;
   }
 }
 .card:hover {
