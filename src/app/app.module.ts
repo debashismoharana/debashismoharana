@@ -15,12 +15,15 @@ import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { MatTableModule } from '@angular/material/table';
 import { MatChipsModule } from '@angular/material/chips';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { ToolsComponent } from './tools/tools.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GithubReposComponent,
-    SkillsComponent
+    SkillsComponent,
+    ToolsComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,8 @@ import { MatChipsModule } from '@angular/material/chips';
     MatCardModule,
     MatListModule,
     MatTableModule,
-    MatChipsModule
+    MatChipsModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

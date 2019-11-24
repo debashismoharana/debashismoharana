@@ -13,6 +13,7 @@ const skills: Skills[] = [
   { name: 'Ionic', rating: 7 },
   { name: 'React', rating: 5 },
   { name: 'PrimeNG', rating: 5 },
+  { name: 'Python', rating: 5 },
 ];
 
 @Component({
