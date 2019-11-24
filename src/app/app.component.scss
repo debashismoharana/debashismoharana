@@ -51,7 +51,7 @@ p {
   display: flex;
   margin: 32px auto;
   padding: 0 16px;
-  max-width: 960px;
+  max-width: 100vw;
   flex-direction: column;
   align-items: center;
 }
@@ -128,12 +128,6 @@ svg.material-icons:not(:last-child) {
   margin-left: 60px;
 }
 
-svg#rocket {
-  width: 80px;
-  position: absolute;
-  left: -10px;
-  top: -24px;
-}
 
 svg#rocket-smoke {
   height: 100vh;
@@ -270,16 +264,8 @@ svg#clouds {
   .card.highlight-card span {
     margin-left: 72px;
   }
-
-  svg#rocket-smoke {
-    right: 120px;
-    transform: rotate(-5deg);
-  }
 }
 
 @media screen and (max-width: 575px) {
-  svg#rocket-smoke {
-    display: none;
-    visibility: hidden;
-  }
+
 }
