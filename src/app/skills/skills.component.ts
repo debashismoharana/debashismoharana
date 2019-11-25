@@ -6,8 +6,9 @@ export interface Skills {
 }
 
 const skills: Skills[] = [
-  { name: 'Angular', rating: 7 },
   { name: 'JavaScript', rating: 7 },
+  { name: 'Angular 2/4/5/7/8', rating: 7 },
+  { name: 'TypeScript', rating: 6 },
   { name: 'HTML', rating: 8 },
   { name: 'CSS', rating: 7 },
   { name: 'Ionic', rating: 7 },
