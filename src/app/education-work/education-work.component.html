@@ -1,15 +1,22 @@
-<mat-grid-list cols="4" rowHeight="2:1">
-    <mat-grid-tile [colspan]=1>
-        <h2 >Work Experience</h2>
+<mat-grid-list [cols]="breakpointTitle" (window:resize)="onResize($event)">
+    <mat-grid-tile [colspan]=1 class="title">
+        <h2>Work Experience</h2>
     </mat-grid-tile>
-    <mat-grid-tile [colspan]=3>
+    <mat-grid-tile [colspan]="breakpointDesc" class="description">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur provident, ipsam, quidem eum unde nostrum
         dolorem sapiente sint id, dolorum quasi. Commodi laborum quis reiciendis fugit at incidunt nemo quasi!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima facere ratione, ab deserunt vitae est eligendi
+        natus nihil facilis adipisci, veritatis fuga accusantium aliquid. Veniam perferendis aut sequi commodi atque?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae harum esse itaque dolores aliquam dolorum
+        ullam dolorem vero illum, quibusdam corporis expedita explicabo ipsa praesentium! Facilis laudantium ratione
+        laboriosam fugit?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim dolores, doloribus consequuntur facere atque
+        aspernatur aut sed nobis, quidem nesciunt, iste tempora ipsa maiores iure! Iusto impedit officia quas debitis!
     </mat-grid-tile>
-    <mat-grid-tile [colspan]=1>
+    <mat-grid-tile [colspan]=1 class="title">
         <h2>Education</h2>
     </mat-grid-tile>
-    <mat-grid-tile [colspan]=3>
+    <mat-grid-tile [colspan]="breakpointDesc" class="description">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur provident, ipsam, quidem eum unde nostrum
         dolorem sapiente sint id, dolorum quasi. Commodi laborum quis reiciendis fugit at incidunt nemo quasi!
     </mat-grid-tile>

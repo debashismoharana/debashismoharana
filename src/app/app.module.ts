@@ -18,13 +18,15 @@ import { MatTableModule } from '@angular/material/table';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { TopContainerComponent } from './top-container/top-container.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GithubReposComponent,
     SkillsComponent,
-    EducationWorkComponent
+    EducationWorkComponent,
+    TopContainerComponent
   ],
   imports: [
     BrowserModule,
