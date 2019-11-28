@@ -89,8 +89,6 @@ THE SOFTWARE.
 
 @angular/material/chips
 
-@angular/material/grid-list
-
 @angular/material/progress-bar
 
 @angular/material/table
