@@ -1,9 +1,25 @@
-mat-grid-list {
-    width: 80vw;
+.title {
+    min-width: 300px;
+    font-size: 1.2rem;
+}
+.content {
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 10px;
+    margin: 10px;
+}
+@media only screen and (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+}
+.work, .education {
     margin-top: 50px;
 }
-.title {
-}
-.description {
-    background: rgba(0, 0, 0, 0.04);
+.example-header-image {
+    background-image: url('../../assets/infosys.png');
+    background-size: cover;
+  }
+table {
+    width: 80vw;
+    margin-top: 50px;
 }

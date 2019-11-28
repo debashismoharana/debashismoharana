@@ -1,23 +1,78 @@
-<mat-grid-list [cols]="breakpointTitle" (window:resize)="onResize($event)">
-    <mat-grid-tile [colspan]=1 class="title">
-        <h2>Work Experience</h2>
-    </mat-grid-tile>
-    <mat-grid-tile [colspan]="breakpointDesc" class="description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur provident, ipsam, quidem eum unde nostrum
-        dolorem sapiente sint id, dolorum quasi. Commodi laborum quis reiciendis fugit at incidunt nemo quasi!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima facere ratione, ab deserunt vitae est eligendi
-        natus nihil facilis adipisci, veritatis fuga accusantium aliquid. Veniam perferendis aut sequi commodi atque?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae harum esse itaque dolores aliquam dolorum
-        ullam dolorem vero illum, quibusdam corporis expedita explicabo ipsa praesentium! Facilis laudantium ratione
-        laboriosam fugit?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim dolores, doloribus consequuntur facere atque
-        aspernatur aut sed nobis, quidem nesciunt, iste tempora ipsa maiores iure! Iusto impedit officia quas debitis!
-    </mat-grid-tile>
-    <mat-grid-tile [colspan]=1 class="title">
-        <h2>Education</h2>
-    </mat-grid-tile>
-    <mat-grid-tile [colspan]="breakpointDesc" class="description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur provident, ipsam, quidem eum unde nostrum
-        dolorem sapiente sint id, dolorum quasi. Commodi laborum quis reiciendis fugit at incidunt nemo quasi!
-    </mat-grid-tile>
-</mat-grid-list>
+<table>
+    <div class="work">
+        <tr>
+            <th class="title">Work Experience</th>
+            <td>
+                <mat-card class="content">
+                    <mat-card-header>
+                        <div mat-card-avatar class="example-header-image"></div>
+                        <mat-card-title>Cybage Software Pvt Ltd.</mat-card-title>
+                        <mat-card-subtitle>Senior Software Engineer (Oct 2019 - till date)</mat-card-subtitle>
+                    </mat-card-header>
+                    <mat-card-content>
+                        <p>
+                            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from
+                            Japan.
+                            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+                            originally
+                            bred for hunting.
+                        </p>
+                    </mat-card-content>
+                </mat-card>
+                <mat-card class="content">
+                    <mat-card-header>
+                        <div mat-card-avatar class="example-header-image"></div>
+                        <mat-card-title>Infosys Limited</mat-card-title>
+                        <mat-card-subtitle>Senior Systems Engineer (May 2015 - Oct 2019)</mat-card-subtitle>
+                    </mat-card-header>
+                    <mat-card-content>
+                        <p>
+                            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from
+                            Japan.
+                            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+                            originally
+                            bred for hunting.
+                        </p>
+                    </mat-card-content>
+                </mat-card>
+            </td>
+        </tr>
+    </div>
+    <div class="education">
+        <tr>
+            <th class="title">Education</th>
+            <td>
+                <mat-card class="content">
+                    <mat-card-header>
+                        <mat-card-title>National Institute of Science and Technology (2011-2015)</mat-card-title>
+                        <mat-card-subtitle>Bachelor of Technology (Computer science and Engineering)</mat-card-subtitle>
+                    </mat-card-header>
+                    <mat-card-content>
+                        <p>
+                            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from
+                            Japan.
+                            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+                            originally
+                            bred for hunting.
+                        </p>
+                    </mat-card-content>
+                </mat-card>
+                <mat-card class="content">
+                    <mat-card-header>
+                        <mat-card-title>College of Basic Science and Humanities (2009-2011)</mat-card-title>
+                        <mat-card-subtitle>Council of Higher Secondary Education, Odisha</mat-card-subtitle>
+                    </mat-card-header>
+                    <mat-card-content>
+                        <p>
+                            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from
+                            Japan.
+                            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+                            originally
+                            bred for hunting.
+                        </p>
+                    </mat-card-content>
+                </mat-card>
+            </td>
+        </tr>
+    </div>
+</table>
