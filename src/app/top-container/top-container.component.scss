@@ -4,5 +4,12 @@
     font-size: 3vw;
     text-align: center;
     line-height: 60vh;
-    background-color: rgba(0,0,0,0.09);
+    background-image: url('../../assets/debashis.jpg');
+    color: white;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
