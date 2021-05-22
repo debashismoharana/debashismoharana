@@ -1,0 +1,9 @@
+<div class="card-container">
+  <mat-card class="card" *ngFor="let repo of myRepos">
+    <div class="name"> <a href="{{repo.html_url}}"> {{ repo.name }} </a> </div>
+    <div class="description"> {{ repo.description }} </div>
+    <mat-chip-list class="language" *ngIf="repo.language" aria-label="Language">
+      <mat-chip color="accent" selected>{{ repo.language }}</mat-chip>
+    </mat-chip-list>
+  </mat-card>
+</div>

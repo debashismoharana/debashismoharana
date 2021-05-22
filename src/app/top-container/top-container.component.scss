@@ -1,0 +1,21 @@
+.first-view {
+    height: 60vh;
+    width: 100vw;
+    font-size: 3vw;
+    text-align: center;
+    line-height: 60vh;
+    background-image: url('../../assets/background.jpg');
+    color: white;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .first-view {
+        display: none;
+    }
+}

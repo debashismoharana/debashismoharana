@@ -1,0 +1,40 @@
+table {
+  margin: 30px;
+  width: 90vw;
+}
+.avatar {
+  border-radius: 50%;
+}
+.image {
+  text-align: center;
+}
+.links {
+  padding: 2px;
+  border-radius: 50%;
+  transition: 0.3s ease-out;
+}
+.links:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.details {
+  width: 60%;
+  padding: 30px;
+  vertical-align: top;
+}
+
+@media only screen and (max-width: 600px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+    text-align: center;
+  }
+  .details {
+    padding: 0;
+    width: 100%;
+  }
+}

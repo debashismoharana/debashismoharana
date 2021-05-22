@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "debashis-moharana": {
+      "hosting": {
+        "debashismoharana": [
+          "debashis-moharana"
+        ]
+      }
+    }
+  }
+}
