@@ -1,5 +1,5 @@
 
-### Hey there,
+### Hey there !
 I am Debashis Moharana. Working as a UI developer since 2015.
 
 I have 6 years of experience in application development, both web and mobile.
