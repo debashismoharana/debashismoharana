@@ -1,6 +1,6 @@
 
 ### Hey there!
-I am Debashis Moharana from Bhubaneswar, India. Working as a UI developer since 2015.
+I am Debashis Moharana from Bhubaneswar, India. Working as a UI developer since 2015. Currently located in Pune, Maharashtra.
 
 I have 9+ years of experience in application development, both web and mobile.
 I have knowledge of Javascript, React, Angular, Ionic, HTML, CSS, CoffeeScript, handlebar, backbone, underscore.js, and many more.
